@@ -31,11 +31,11 @@ The QR code includes the **product ID**, which is extracted and stored in a data
 
 📸 A human manually positions the camera and scans the QR code.
 
-<img src="Manual.png" alt="Sample Output" width="300"/>
+<img src="Manual.png" alt="Sample Output" width="600"/>
 
 ## 🤖 Automated Process of Scanning
 
 🚀 Camera + YOLO + QR Scanner working together in real-time.
 
-![Sample Output](Automatic.png)
+<img src="Automatic.png" alt="Sample Output" width="500"/>
 
