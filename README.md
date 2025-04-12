@@ -31,8 +31,7 @@ The QR code includes the **product ID**, which is extracted and stored in a data
 
 📸 A human manually positions the camera and scans the QR code.
 
-![Sample Output](Manual.png)
-
+<img src="Manual.png" alt="Sample Output" width="300"/>
 
 ## 🤖 Automated Process of Scanning
 
