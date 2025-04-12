@@ -12,7 +12,6 @@ The QR code includes the **product ID**, which is extracted and stored in a data
 - 🧠 The computer applies **image processing techniques** to enhance the captured QR code.
 - 📇 The QR code is then scanned to extract the **Product ID**.
 
----
 
 ## ⚠️ Corner Cases & Challenges
 
@@ -20,7 +19,6 @@ The QR code includes the **product ID**, which is extracted and stored in a data
 - 📦 Packages vary in size — large packages are easy to scan, but **small packages pose challenges** due to a fixed camera position.
 - 🎯 QR code placement and orientation on each package is **inconsistent**.
 
----
 
 ## 🛠️ Solutions to Challenges
 
@@ -28,20 +26,17 @@ The QR code includes the **product ID**, which is extracted and stored in a data
 - ✨ **Enhancing QR code quality** using image pre-processing for reliable scans.
 - 🧍‍♂️ Trained a **YOLO model on 2D matrix patterns** to locate and isolate QR codes efficiently.
 
----
 
 ## 🧾 Manual Process of Scanning
 
 📸 A human manually positions the camera and scans the QR code.
 
-![Sample Output](demo_result.png)
+![Sample Output](Manual.png)
 
----
 
 ## 🤖 Automated Process of Scanning
 
 🚀 Camera + YOLO + QR Scanner working together in real-time.
 
-![Sample Output](demo_result.png)
+![Sample Output](Automatic.png)
 
----
