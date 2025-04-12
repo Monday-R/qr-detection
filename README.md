@@ -1,29 +1,47 @@
-## Qr-detection
+# 📦 QR Detection System
 
-This project is developed to detect the qr codes on packages that are moving on a conveyer belt in the receiving inventory section of the warehose
-The Qr code inclues the prduct id of the package and we have to store it in the database for further usage of it in the warehouse.
-# Basic Workflow
+This project is developed to detect QR codes on packages moving along a conveyor belt in the receiving inventory section of a warehouse. 
 
-* A camera is interated with the computer and captures the qr on the product then sends it to the computer.
-* The computer uses image processing on the captured qr code to enhace it.
-* Then the qr code gets scanned giving the product id as output.
+The QR code includes the **product ID**, which is extracted and stored in a database for further processing within the warehouse workflow.
 
-# Corner cases
+---
 
-* Packages on the conveyer belt moves fast so that the capturing and detection of the qr codes should be fast.
-* Packages are of different sizes(big package - easy to scan, small package - hard to scan) as the camera position is fixed.
-* Placement and position of the qr code on the package is different.
+## 🔁 Basic Workflow
 
-# Solutions for the corner cases
+- 🎥 A **camera** is integrated with the system to capture images of QR codes on moving packages.
+- 🧠 The computer applies **image processing techniques** to enhance the captured QR code.
+- 📇 The QR code is then scanned to extract the **Product ID**.
 
-* Still working on it
-* We enhance the qr code quality for perfect scanning
-* We trained Yolo model on 2d matrix detection so that it would be easy to locate and isolate qr.
+---
 
-# Manual Process of Scanning
+## ⚠️ Corner Cases & Challenges
+
+- ⏱️ **High-speed belt movement** requires fast and accurate detection.
+- 📦 Packages vary in size — large packages are easy to scan, but **small packages pose challenges** due to a fixed camera position.
+- 🎯 QR code placement and orientation on each package is **inconsistent**.
+
+---
+
+## 🛠️ Solutions to Challenges
+
+- 🧪 *Still under active development.*
+- ✨ **Enhancing QR code quality** using image pre-processing for reliable scans.
+- 🧍‍♂️ Trained a **YOLO model on 2D matrix patterns** to locate and isolate QR codes efficiently.
+
+---
+
+## 🧾 Manual Process of Scanning
+
+📸 A human manually positions the camera and scans the QR code.
 
 ![Sample Output](demo_result.png)
 
-# Automated process of Scanning
+---
+
+## 🤖 Automated Process of Scanning
+
+🚀 Camera + YOLO + QR Scanner working together in real-time.
 
 ![Sample Output](demo_result.png)
+
+---
